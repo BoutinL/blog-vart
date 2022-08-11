@@ -18,10 +18,18 @@
 
 <script>
 export default {
-    name: 'Connexion',
+    name: 'ConnexionView',
+    data() {
+        return {
+            
+        }   
+    },
+    methods:{ 
+        
+    }
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
