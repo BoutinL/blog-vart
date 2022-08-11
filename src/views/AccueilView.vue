@@ -1,15 +1,14 @@
 <template>
-<AccueilDeconnecte/>
+<AccueilDeco />
 </template>
 
 <script>
-// @ is an alias to /src
-import AccueilDeconnecte from '@/components/AccueilDeconnecte.vue'
+import AccueilDeco from '@/components/AccueilDeco.vue'
 
 export default {
   name: 'AccueilView',
   components: {
-    AccueilDeconnecte
+    AccueilDeco,
   }
 }
 </script>
