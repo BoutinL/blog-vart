@@ -1,6 +1,8 @@
 <template>
   <nav>
-    <router-link to="/">Accueil</router-link>
+    <router-link to="/">Accueil</router-link> |
+    <router-link to="/form">Form</router-link> |
+    <router-link to="/galerie">Galerie</router-link>
   </nav>
   <router-view/>
 </template>
