@@ -1,7 +1,8 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import AccueilView from '../views/AccueilView.vue'
-import FormView from '../views/FormView.vue'
 import GalerieView from '../views/GalerieView.vue'
+import InscriptionView from '../views/InscriptionView.vue'
+import ConnexionView from '../views/ConnexionView.vue'
 
 const routes = [
   {
@@ -10,14 +11,19 @@ const routes = [
     component: AccueilView
   },
   {
-    path: '/form',
-    name: 'form',
-    component: FormView
-  },
-  {
     path: '/galerie',
     name: 'galerie',
     component: GalerieView
+  },
+  {
+    path: '/inscription',
+    name: 'inscription',
+    component: InscriptionView
+  },
+  {
+    path: '/connexion',
+    name: 'connexion',
+    component: ConnexionView
   }
 ]
 
