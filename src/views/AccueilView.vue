@@ -1,5 +1,7 @@
 <template>
-<AccueilDeco />
+  <section class="page-accueil">
+    <AccueilDeco />
+  </section>
 </template>
 
 <script>
@@ -13,6 +15,12 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.page-accueil{
+  background-color: #c5b2ec;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
 <header class="header">
   <nav>
-              <input class="menu-bouton" type="checkbox" id="menu-bouton" />
+    <input class="menu-bouton" type="checkbox" id="menu-bouton" />
     <label class="menu-icone" for="menu-bouton"><span class="nav-icone"></span></label>
     <h1 class="titre">Blog Vart</h1>
     <ul class="menu">
@@ -14,12 +14,12 @@
 </header>
 <router-view/>
 <footer class="footer">
-  <span>Footer</span>
+  <span>Copyright©2022. Tous droits réservés à V.Feldin</span>
 </footer>
   
 </template>
 
-<style>
+<style >
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,12 +28,12 @@
 }
 
 a{
-  color: #6A6B70;
-  border-radius: 8px;
+  color: #c5b2ec;
+  font-weight: 900;
 }
 
 .titre{
-  color: #6A6B70;
+  color: #c5b2ec;
   text-align: center;
   font-size: 2rem;
   padding-bottom: 2rem;
@@ -42,15 +42,14 @@ a{
   /* header */
 
 .header {
-    background-color: #131316;
-    color: #6A6B70;
+  background-color: #131316;
 }
 
 .footer {
     background-color: #131316;
-    color: #6A6B70;
+    color: #c5b2ec;
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .header h1::before {
@@ -94,7 +93,7 @@ a{
 }
 
 .header .menu-icone .nav-icone { /* Définit le span initial */
-    background: #333;
+    background: #c5b2ec;
     display: block;
     height: 2px;
     position: relative;
@@ -103,7 +102,7 @@ a{
 
 .header .menu-icone .nav-icone:before,
 .header .menu-icone .nav-icone:after { /* Définit les spans ajoutés */
-    background: #333;
+    background: #c5b2ec;
     content: '';
     display: block;
     height: 100%;
