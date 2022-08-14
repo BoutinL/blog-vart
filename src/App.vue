@@ -16,7 +16,7 @@
 <footer class="footer">
   <span>Copyright©2022. Tous droits réservés à V.Feldin</span>
 </footer>
-  
+
 </template>
 
 <style >

@@ -16,6 +16,10 @@
         <input type="text" name="username" required>
         </label>
         <label>
+        <span>Email</span>
+        <input type="text" name="email" required>
+        </label>
+        <label>
         <span>Mot de passe</span>
         <input type="password" name="pass" required>
         </label>
