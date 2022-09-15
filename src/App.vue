@@ -1,24 +1,37 @@
 <template>
-<header class="header">
-  <nav>
-    <input class="menu-bouton" type="checkbox" id="menu-bouton" />
-    <label class="menu-icone" for="menu-bouton"><span class="nav-icone"></span></label>
-    <h1 class="titre">Blog Vart</h1>
-    <ul class="menu">
-      <router-link to="/">Accueil</router-link>
-      <router-link to="/galerie">Galerie</router-link>
-      <router-link to="/inscription">Inscription</router-link>
-      <router-link to="/connexion">Connexion</router-link>
-    </ul>
-  </nav>
-</header>
-<router-view/>
-<footer class="footer">
-  <span>Copyright©2022. Tous droits réservés à V.Feldin</span>
-</footer>
-  
+  <header class="header">
+    <nav>
+      <input class="menu-bouton" type="checkbox" id="menu-bouton" />
+      <label class="menu-icone" for="menu-bouton"><span class="nav-icone"></span></label>
+      <h1 class="titre">Blog Vart</h1>
+      <ul class="menu">
+        <router-link to="/">Accueil</router-link>
+        <router-link to="/galerie">Galerie</router-link>
+        <router-link to="/inscription">Inscription</router-link>
+        <router-link to="/connexion">Connexion</router-link>
+      </ul>
+    </nav>
+  </header>
+  <router-view/>
+  <footer class="footer">
+    <span>Copyright©2022. Tous droits réservés à V.Feldin</span>
+  </footer>
 </template>
 
+<script>
+export default{
+  name: "App",
+  beforeMount() {
+    fetch('https://jsonplaceholder.typicode.com/todos/10/users/')
+    .then(response => response.json())
+    .then(json => {
+      this.data = json ;
+      console.log(this.data);
+      this.$store.commit("setUsersRequest", this.data);  
+    })
+  }
+} 
+</script>
 <style >
 * {
   box-sizing: border-box;
@@ -39,7 +52,7 @@ a{
   padding-bottom: 2rem;
 }
 
-  /* header */
+/* header */
 
 .header {
   background-color: #131316;
