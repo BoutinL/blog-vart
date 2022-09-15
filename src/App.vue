@@ -41,12 +41,12 @@ export default{
 }
 
 a{
-  color: #c5b2ec;
+  color: #62a1a9;
   font-weight: 900;
 }
 
 .titre{
-  color: #c5b2ec;
+  color: #62a1a9;
   text-align: center;
   font-size: 2rem;
   padding-bottom: 2rem;
@@ -60,7 +60,7 @@ a{
 
 .footer {
     background-color: #131316;
-    color: #c5b2ec;
+    color: #62a1a9;
     text-align: center;
     padding: 1.5rem;
 }
@@ -106,7 +106,7 @@ a{
 }
 
 .header .menu-icone .nav-icone { /* Définit le span initial */
-    background: #c5b2ec;
+    background: #62a1a9;
     display: block;
     height: 2px;
     position: relative;
@@ -115,7 +115,7 @@ a{
 
 .header .menu-icone .nav-icone:before,
 .header .menu-icone .nav-icone:after { /* Définit les spans ajoutés */
-    background: #c5b2ec;
+    background: #62a1a9;
     content: '';
     display: block;
     height: 100%;

@@ -1,6 +1,6 @@
 <template>
 <div class="galerie">
-    <h1>Galerie d'exposition</h1>
+    <h1>Galerie</h1>
     <hr>
 </div>
 </template>
@@ -13,7 +13,7 @@ export default {
 
 <style scoped>
 .galerie{
-    background-color: #c5b2ec;
+    background-color: #62a1a9;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ h1{
     text-align: left;
 }
 hr{
-    border: 1px solid #9370dc;
+    border: 1px solid #62a1a9;
     border-radius: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;

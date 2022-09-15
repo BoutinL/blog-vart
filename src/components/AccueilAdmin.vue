@@ -94,7 +94,7 @@ h1, h2{
 }
 
 hr{
-    border: 1px solid #9370dc;
+    border: 1px solid #62a1a9;
     border-radius: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -130,31 +130,31 @@ hr{
 }
 
 .btn-supr{
-  background-color: #FF3838;
-  color: white;
-  padding: 0.2rem;
-  border-radius: 30px;
-  width: 60%;
-  margin: auto;
-  margin-top: 0.5rem;
-  font-weight: 700;
-  border: none;
+    background-color: #FF3838;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    border: none;
 }
 
 .btn-box{
-  display: flex;
-  padding: 0.5rem;
+    display: flex;
+    padding: 0.5rem;
 }
 .btn-valider{
-  background-color:#2DFF35;
-  color: white;
-  padding: 0.2rem;
-  border-radius: 30px;
-  width: 40%;
-  margin: auto;
-  font-size: 1rem;
-  font-weight: 700;
-  border: none
+    background-color:#2DFF35;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 30px;
+    width: 40%;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none
 }
 .btn-valider:hover{
   background-color: #88ff8c;

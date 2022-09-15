@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .page-accueil{
-  background-color: #c5b2ec;
+  background-color: #cbcbcb;
   padding: 2rem;
   display: flex;
   flex-direction: column;

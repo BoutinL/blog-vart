@@ -31,7 +31,7 @@ export default {
 
 <style scoped>
 .form-connexion{
-    background-color: #c5b2ec;
+    background-color: #cbcbcb;
 }
 
 h1{
@@ -40,7 +40,7 @@ h1{
 }
 
 hr{
-    border: 1px solid #9370dc;
+    border: 1px solid #62a1a9;
     border-radius: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -65,17 +65,17 @@ input{
 }
 
 .btn-submit{
-    background-color: #9370dc;
+    background-color: #62a1a9;
     color: white;
     box-shadow: 2px 2px 2px black;
 }
 
 .btn-submit:hover{
-    background-color: #a48bdb;
+    background-color: #7bcad5;
 }
 
 .note-lien{
-    color: #9370dc;
+    color: #62a1a9;
     display: flex;
     justify-content: center;
 }
