@@ -4,27 +4,27 @@
   <h2>Bienvenu(e) username</h2>
   <section class="profil">
     <form class="identifiants">
-        <label class="collumn">
-          <span>Photo de profil</span>
-          <input type="file" name="avatar" accept="image/png, image/jpeg">
-        </label>
+      <label class="collumn">
+        <span>Photo de profil</span>
+        <input type="file" name="avatar" accept="image/png, image/jpeg">
+      </label>
+      <label>
+        <span>Nom</span>
+        <input type="text" name="firstname">
+      </label>
+      <label>
+        <span>Prénom</span>
+        <input type="text" name="lastname">
+      </label>
         <label>
-          <span>Nom</span>
-          <input type="text" name="firstname">
-        </label>
-        <label>
-          <span>Prénom</span>
-          <input type="text" name="lastname">
-        </label>
-          <label>
-          <span>Nom d'utilisateur</span>
-          <input type="text" name="username" required>
-        </label>
-        <label>
-          <span>Email</span>
-          <input type="text" name="email" required>
-        </label>
-        <input type="submit" name="submit" value="Modifier" class="btn-submit">
+        <span>Nom d'utilisateur</span>
+        <input type="text" name="username" required>
+      </label>
+      <label>
+        <span>Email</span>
+        <input type="text" name="email" required>
+      </label>
+      <input type="submit" name="submit" value="Modifier" class="btn-submit">
     </form>
   </section>
 </template>
@@ -51,7 +51,7 @@ hr{
 }
 .identifiants{
     border: none;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -60,7 +60,7 @@ input{
     width: 100%;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    border-radius: 20px;
+    border-radius: 10px;
     height: 2rem;
     text-align: center;
     border: none;
@@ -68,6 +68,7 @@ input{
 
 input:not([type=text],[type=submit]) {
   border-radius: 0px;
+  color: transparent;
 }
 
 .btn-submit{
