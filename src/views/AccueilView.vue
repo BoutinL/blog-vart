@@ -23,8 +23,8 @@ export default {
 
 <style scoped>
 .page-accueil{
-  background-color: #cbcbcb;
-  padding: 2rem;
+  background-color: #8dbbc1;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

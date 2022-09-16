@@ -37,30 +37,30 @@ export default {
 
 <style scoped>
 h1{
-    font-size: 1.5rem;
-    text-align: left;
+  font-size: 1.5rem;
+  text-align: left;
 }
 hr{
-    border: 1px solid #62a1a9;
-    border-radius: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  border: 1px solid #1C1C21;
+  border-radius: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .identifiants{
-    border: none;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  border: none;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 input{
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-radius: 10px;
-    height: 2rem;
-    text-align: center;
-    border: none;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+  height: 2rem;
+  text-align: center;
+  border: none;
 }
 
 input:not([type=text],[type=submit]) {
@@ -69,12 +69,12 @@ input:not([type=text],[type=submit]) {
 }
 
 .btn-submit{
-    background-color: #62a1a9;
-    color: white;
-    box-shadow: 2px 2px 2px black;
+  background-color: #1C1C21;
+  color: white;
+  box-shadow: 2px 2px 2px black;
 }
 
 .btn-submit:hover{
-    background-color: #7bcad5;
+  background-color: #393943;
 }
 </style>

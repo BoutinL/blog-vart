@@ -19,7 +19,7 @@ h1{
   text-align: left;
 }
 hr{
-  border: 1px solid #62a1a9;
+  border: 1px solid #1C1C21;
   border-radius: 2rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;

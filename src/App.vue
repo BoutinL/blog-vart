@@ -167,7 +167,7 @@ a{
         display: flex;
         justify-content: space-between;
         align-items: center;
-            padding: 2rem;
+        padding: 2rem;
     }
     .header h1::before {
         padding: 1.25rem 1.875rem;

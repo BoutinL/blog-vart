@@ -62,14 +62,14 @@ export default {
 
 <style scoped>
 .form-inscription{
-    background-color: #cbcbcb;
+    background-color: #8dbbc1;
 }
 h1{
     font-size: 1.5rem;
     text-align: left;
 }
 hr{
-    border: 1px solid #62a1a9;
+    border: 1px solid #1C1C21;
     border-radius: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -92,17 +92,17 @@ input{
 }
 
 .btn-submit{
-    background-color: #62a1a9;
+    background-color: #1C1C21;
     color: white;
     box-shadow: 2px 2px 2px black;
 }
 
 .btn-submit:hover{
-    background-color: #7bcad5;
+    background-color: #393943;
 }
 
 .note-lien{
-    color: #62a1a9;
+    color: #1C1C21;
     display: flex;
     justify-content: center;
 }

@@ -94,7 +94,7 @@ h1, h2{
 }
 
 hr{
-    border: 1px solid #62a1a9;
+    border: 1px solid #1C1C21;
     border-radius: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -105,6 +105,10 @@ hr{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 1rem;
+}
+
+.info-utilisateurs{
+    padding-top: 0.5rem;
 }
 
 .liste-utilisateurs{
@@ -130,49 +134,51 @@ hr{
 }
 
 .btn-supr{
-    background-color: #FF3838;
+    background-color: #1C1C21;
     color: white;
     padding: 0.2rem;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 60%;
     margin: auto;
-    margin-top: 0.5rem;
+    margin-top:0.5rem;
     font-weight: 700;
     border: none;
 }
 
 .btn-box{
     display: flex;
-    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 .btn-valider{
-    background-color:#2DFF35;
+    background-color:#62a1a9;
     color: white;
     padding: 0.2rem;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 40%;
     margin: auto;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
-    border: none
+    border: none;
 }
+
 .btn-valider:hover{
-  background-color: #88ff8c;
+    background-color: #73bdc7;
 }
 
 .btn-refuser{
-  background-color: #FF3838;
-  color: white;
-  padding: 0.2rem;
-  border-radius: 30px;
-  width: 40%;
-  margin: auto;
-  font-size: 1rem;
-  font-weight: 700;
-  border: none
+    background-color: #1C1C21;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none
 }
 
 .btn-refuser:hover{
-  background-color: #ff6969;
+    background-color: #393943;
 }
 </style>

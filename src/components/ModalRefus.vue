@@ -9,11 +9,11 @@
         <div class="modal-footer">
           <slot name="footer">
             <button
-              class="modal-default-button"
+              class="modal-default-button modal-comfirmer-button"
               @click="$emit('confirm', userId )"
             >CONFIRMER</button>
             <button
-              class="modal-default-button"
+              class="modal-default-button modal-annuler-button"
               @click="$emit('cancel')"
             >ANNULER</button>
           </slot>
@@ -86,7 +86,6 @@ export default {
   margin: 1rem 1rem;
   border-radius: 30px;
   box-shadow: #c5d0c6 1.95px 1.95px 2.6px;
-  background-color: #FFBF38;
   border: none;
 }
 
@@ -136,7 +135,7 @@ export default {
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
-  border-radius: 30px;
+  border-radius: 10px;
   transition: all 0.3s ease;
 }
 
@@ -157,16 +156,27 @@ export default {
   font-weight: bold;
   text-align: center;
   color: white;
-  padding: .5rem;
+  padding: 0.4rem;
   margin: 1rem 1rem;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: #c5d0c6 1.95px 1.95px 2.6px;
-  background-color: #FFBF38;
 }
 
-.modal-default-button:hover {
+.modal-comfirmer-button{
+  background-color: #62a1a9;
+}
+
+.modal-annuler-button{
+  background-color: #1C1C21;
+}
+
+.modal-comfirmer-button:hover {
   color: white;
-  background-color: #FFDC92;
+  background-color: #7dcdd8;
+}
+.modal-annuler-button:hover {
+  color: white;
+  background-color: #393943;
 }
 .modal-enter-from {
   opacity: 0;
@@ -204,7 +214,7 @@ export default {
 }
 
 .modal-container {
-  width: 180px;
+  width: 280px;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
@@ -221,7 +231,7 @@ export default {
 
 .modal-footer {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 .modal-default-button {
@@ -233,14 +243,26 @@ export default {
   margin: 1rem 1rem;
   border-radius: 30px;
   box-shadow: #c5d0c6 1.95px 1.95px 2.6px;
-  background-color: #FFBF38;
 }
 
-.modal-default-button:hover {
+.modal-comfirmer-button{
+  background-color: #62a1a9;
+}
+
+.modal-annuler-button{
+  background-color: #1C1C21;
+}
+
+.modal-comfirmer-button:hover {
   color: white;
-  background-color: #FFDC92;
-
+  background-color: #7dcdd8;
 }
+.modal-annuler-button:hover {
+  color: white;
+  background-color: #393943;
+}
+
+
 .modal-enter-from {
   opacity: 0;
 }
