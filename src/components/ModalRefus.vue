@@ -86,11 +86,12 @@ export default {
   margin: 1rem 1rem;
   border-radius: 30px;
   box-shadow: #c5d0c6 1.95px 1.95px 2.6px;
+  background-color: #62a1a9;
   border: none;
 }
 
 .modal-default-button:hover {
-  background-color: #FFDC92;
+  background-color: #7dcdd8;
 }
 
 /*
@@ -109,7 +110,7 @@ export default {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-@media only screen and (min-width: 426px)  and (max-width: 1220px){
+@media only screen and (min-width: 426px){
    *{
   user-select: none;
 }
@@ -136,6 +137,7 @@ export default {
   padding: 20px 30px;
   background-color: #fff;
   border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(218, 218, 218);
   transition: all 0.3s ease;
 }
 
@@ -162,6 +164,10 @@ export default {
   box-shadow: #c5d0c6 1.95px 1.95px 2.6px;
 }
 
+.modal-default-button:hover {
+  background-color: #4e7b7f;
+}
+
 .modal-comfirmer-button{
   background-color: #62a1a9;
 }
@@ -171,11 +177,9 @@ export default {
 }
 
 .modal-comfirmer-button:hover {
-  color: white;
   background-color: #7dcdd8;
 }
 .modal-annuler-button:hover {
-  color: white;
   background-color: #393943;
 }
 .modal-enter-from {
@@ -254,11 +258,9 @@ export default {
 }
 
 .modal-comfirmer-button:hover {
-  color: white;
   background-color: #7dcdd8;
 }
 .modal-annuler-button:hover {
-  color: white;
   background-color: #393943;
 }
 
